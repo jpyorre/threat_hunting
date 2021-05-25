@@ -5,7 +5,7 @@ import logging
 with open('virustotal_token.txt') as API_KEY:
     api = API_KEY.read()
 
-vt_notification_URL = 'https://www.virustotal.com/intelligence/hunting/notifications-feed/?key=e8bfb2f7fefde0ec05a83e9b4b6c97758066a0c129760492c462f400354568eb'
+vt_notification_URL = 'https://www.virustotal.com/intelligence/hunting/notifications-feed/?key=PUTYOURNOTIFICATIONKEYHERE'
 
 # This will be the list of MD5's that we're going to download from VT
 md5_list = 'md5_list.txt'
